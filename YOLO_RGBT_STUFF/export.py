@@ -1,6 +1,6 @@
 import warnings
 warnings.filterwarnings('ignore')
-from ultralytics import YOLO
+from YOLO_RGBT_STUFF.ultralytics import YOLO
 
 # onnx onnxsim onnxruntime onnxruntime-gpu
 

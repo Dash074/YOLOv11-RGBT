@@ -10,10 +10,10 @@ np.random.seed(0)
 import matplotlib.pyplot as plt
 from tqdm import trange
 from PIL import Image
-from ultralytics import YOLO
-from ultralytics.nn.tasks import attempt_load_weights
-from ultralytics.utils.torch_utils import intersect_dicts
-from ultralytics.utils.ops import xywh2xyxy, non_max_suppression
+from YOLO_RGBT_STUFF.ultralytics import YOLO
+from YOLO_RGBT_STUFF.ultralytics.nn.tasks import attempt_load_weights
+from YOLO_RGBT_STUFF.ultralytics.utils.torch_utils import intersect_dicts
+from YOLO_RGBT_STUFF.ultralytics.utils.ops import xywh2xyxy, non_max_suppression
 from pytorch_grad_cam import GradCAMPlusPlus, GradCAM, XGradCAM, EigenCAM, HiResCAM, LayerCAM, RandomCAM, EigenGradCAM, AblationCAM
 from pytorch_grad_cam.utils.image import show_cam_on_image, scale_cam_image
 from pytorch_grad_cam.activations_and_gradients import ActivationsAndGradients

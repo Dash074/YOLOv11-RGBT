@@ -1,7 +1,7 @@
 import warnings
 warnings.filterwarnings('ignore')
 import torch
-from ultralytics.nn.tasks import DetectionModel
+from YOLO_RGBT_STUFF.ultralytics.nn.tasks import DetectionModel
 
 # 辅助头部分的代码从魔鬼面具v11代码里面复制，已和魔导沟通确认，具体请参考  https://github.com/z1069614715/objectdetection_script
 if __name__ == '__main__':

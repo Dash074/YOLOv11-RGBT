@@ -1,6 +1,6 @@
 import warnings
 warnings.filterwarnings('ignore')
-from ultralytics import RTDETR
+from YOLO_RGBT_STUFF.ultralytics import RTDETR
 
 if __name__ == '__main__':
     model = RTDETR('ultralytics/cfg/models/rt-detr-RGBT/rtdetr-resnet50-RGBT-midfusion-P3.yaml')

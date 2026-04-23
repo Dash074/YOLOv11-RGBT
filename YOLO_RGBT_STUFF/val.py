@@ -1,6 +1,6 @@
 import warnings
 warnings.filterwarnings('ignore')
-from ultralytics import YOLO
+from YOLO_RGBT_STUFF.ultralytics import YOLO
 
 if __name__ == '__main__':
     model = YOLO(R"C:/Users/harsh/OneDrive/Desktop/college/maverick/AUTONOMOUS/yolo/trained_on_laptops/yolo11s-RGBT-midfusion-TMI_300epochs/weights/best.pt")

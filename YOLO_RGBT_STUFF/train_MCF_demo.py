@@ -3,7 +3,7 @@ import warnings
 import torch
 
 warnings.filterwarnings('ignore')
-from ultralytics import YOLO
+from YOLO_RGBT_STUFF.ultralytics import YOLO
 
 if __name__ == '__main__':
     '''

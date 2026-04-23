@@ -1,6 +1,6 @@
 import warnings
 warnings.filterwarnings('ignore')
-from ultralytics import YOLO
+from YOLO_RGBT_STUFF.ultralytics import YOLO
 
 if __name__ == '__main__':
     model = YOLO('ultralytics/cfg/models/11/yolo11-cls-RGBRGB.yaml')

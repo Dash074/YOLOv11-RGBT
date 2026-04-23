@@ -1,7 +1,7 @@
 import warnings
 warnings.filterwarnings('ignore')
-from ultralytics import YOLO
-from ultralytics import RTDETR
+from YOLO_RGBT_STUFF.ultralytics import YOLO
+from YOLO_RGBT_STUFF.ultralytics import RTDETR
 
 if __name__ == '__main__':
     model = YOLO('ultralytics/cfg/models/11/yolo11n.yaml')

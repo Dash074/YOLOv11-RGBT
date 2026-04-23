@@ -1,2 +1,4 @@
 # YOLOv11-RGBT
-Deep learning Assingment
+YOLOv11-RGBT-Drone.ipynb is the main file with all the merged code 
+You can find model internals and other unmerged source code in YOLO_RGBT_STUFF folder
+Results are stored in Results folder
